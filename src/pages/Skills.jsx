@@ -23,7 +23,7 @@ const ROWS = [
   [
     { title: "Programming Languages", items: ["Python", "C", "C++", "Java"] },
     { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
-    { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git"] },
+    { title: "Databases & Tools", items: ["MySQL", "MongoDB","PostgreSQL", "Git"] },
     { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV"] },
   ],
   [
@@ -33,6 +33,7 @@ const ROWS = [
         "Data Structures & Algorithms",
         "Machine Learning",
         "Deep Learning",
+        "NLP",
         "YOLO Object Detection",
         "Explainable AI (XAI)",
       ],
@@ -100,7 +101,7 @@ export default function Skills() {
         <h2 className="text-5xl text-cyan-400 font-semibold mb-3">My Skills</h2>
         <div className="w-28 h-[2px] bg-cyan-400 mx-auto mb-6"></div>
         <p className="text-gray-400 text-lg max-w-xl mx-auto">
-          ✨ Technical expertise blended with creativity — explore my core competencies below.
+          Technical expertise blended with creativity — explore my core competencies below.
         </p>
       </motion.div>
 

@@ -15,20 +15,23 @@ import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
-    'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
-    'Computer Vision Researcher',
-    'Developer',
+    'Machine Learning',
+    'Deep Learning',
+    "Computer Vision",
+    "NLP",
+    // 'Computer Vision Researcher',
+    // 'Developer',
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'mailto:kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/TamimBhaii' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/tamimbhai' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:tamimislam.cse@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://x.com/TAMIMISLAM38' },
+    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/Tamim69Bhai' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/__ta_mim__' },
+
+    
   ]
 
   return (
@@ -85,13 +88,13 @@ export default function Home() {
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
               className="home-name"
             >
-              Kunj Desai
+              Md. Tamim Islam
             </motion.span>
           </h1>
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech Explorer
+            AI/ML Developer | Competitive Programmer
           </p>
 
           {/* Profession Tags */}
@@ -104,18 +107,18 @@ export default function Home() {
           </motion.div>
 
           {/* Info Cards */}
-          <motion.div className="info-cards">
+          {/* <motion.div className="info-cards">
             {[
-              { label: '📍 Location', value: 'Surat, Gujarat, India' },
+              { label: '📍 Location', value: 'Gulshan, Dhaka, Bangladesh' },
               { label: '💼 Expertise', value: 'AI/ML, Problem Solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📧 Contact', value: 'tamimislam.cse@gmail.com' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
                 <p>{info.value}</p>
               </motion.div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
 

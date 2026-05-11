@@ -9,15 +9,15 @@ const PROJECTS = [
     ss: '/mamo.png',
     tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
     live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    // code: 'https://github.com/kunjdesai/mammo-detector'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+  title: 'HouseHold Service',
+  desc: 'Implemented role-based dashboards, a booking system, and integrated Cloudinary for media storage with Supabase backend.',
+  ss: '/household.png',
+  tech: ['Python', 'Django', 'PostgreSQL',],
+  live: 'https://household-service-platform.vercel.app/',
+  // code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
   },
   {
     title: '🤖 Indian Sign Language Interpreter',
@@ -25,7 +25,7 @@ const PROJECTS = [
     ss: '/ISL.png',
     tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
     live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    // code: 'https://github.com/kunjdesai/ISL-Interpreter'
   },
   {
   title: '💼 Portfolio Website',
@@ -33,7 +33,7 @@ const PROJECTS = [
   ss: '/portfolio.jpg',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  // code: 'https://github.com/kunj2803/Kunj-Portfolio'
   },
   {
     title: '💬 DocuChat – Gemini AI Chatbot',
@@ -41,7 +41,7 @@ const PROJECTS = [
     ss: '/Docuchat.png',
     tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
     live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+    // code: 'https://github.com/kunj2803/Docuchat-Chatbot'
   },
   {
     title: '📊 ProfileX – Data Profiler',
@@ -49,7 +49,7 @@ const PROJECTS = [
     ss: '/ProfileX.png',
     tech: ['Streamlit', 'Pandas', 'Plotly'],
     live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
+    // code: 'https://github.com/kunjdesai/ProfileX'
   },
   {
     title: '🧬 Breast Cancer Prediction',
@@ -57,7 +57,7 @@ const PROJECTS = [
     ss: '/breastpred.jpg',
     tech: ['scikit-learn', 'XGBoost', 'Pandas'],
     live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+    // code: 'https://github.com/kunjdesai/BreastCancerPrediction'
   }
 ]
 

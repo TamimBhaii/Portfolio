@@ -67,12 +67,14 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
-    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/TamimBhaii' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/tamimbhai' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:tamimislam.cse@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://x.com/TAMIMISLAM38' },
+    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/Tamim69Bhai' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/__ta_mim__' },
+
+    
   ];
 
   return (

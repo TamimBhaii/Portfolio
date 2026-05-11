@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+               Md. Tamim Islam
             </h3>
-            <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
+            {/* <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
               4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+            </p> */}
+            <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
+              📍 Gulshan 1, Dhaka, Bangladesh
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
-            </p>
-            <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ tamimislam.cse@gmail.com | 📞 01836835879
             </p>
           </div>
 
@@ -78,18 +78,18 @@ export default function Resume() {
               lineHeight: 1.6,
             }}
           >
-            <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
-            <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+            <strong style={{ color: "#00b4ff" }}>Objective</strong>
+            <p style={{ textAlign: "justify", marginTop: 6, color: "#ccc" }}>
+Passionate Computer Science student with strong interests in machine learning.
+ Experienced in full-stack web applications using Django and Python, with strong problem-solving skills honed
+ through competitive programming and coding challenges. Seeking opportunities to apply my skills in machine
+ learning to build impactful, scalable solutions.
             </p>
           </motion.div>
         </motion.div>
 
         {/* Education Section with Border Box */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
@@ -121,10 +121,10 @@ export default function Resume() {
               <span style={{ color: "#aaa" }}>Percentage: 85%</span>
             </li>
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Projects */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
@@ -137,10 +137,10 @@ export default function Resume() {
             <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
             <li>4️⃣ Mental Health Analyzer</li>
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Skills */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1 }}
@@ -185,7 +185,7 @@ export default function Resume() {
               </motion.span>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -198,9 +198,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "🏆 LeetCode", link: "https://leetcode.com/u/tamim_islam/" },
+            { name: "🏆 CodeChef", link: "https://www.codechef.com/users/tamimislam" },
+            { name: "🏆 Codeforces", link: "https://codeforces.com/profile/TamimBhai" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -234,7 +234,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Kunj Desai Resume"
+            title="Tamim Islam Resume"
             style={{
               width: "100%",
               height: "650px",
